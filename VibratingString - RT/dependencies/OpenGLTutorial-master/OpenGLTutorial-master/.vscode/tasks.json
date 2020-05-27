@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", "-std=c++11", "main.cpp", "shader.cpp", "-o", "opengl_tutorial", "-D", "_DEBUG", "-lGL", "-lSDL2", "-lGLEW"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build_tools",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g", "-std=c++11", "tools/modelexporter.cpp", "-o", "tools/modelexporter", "-D", "_DEBUG", "-lassimp"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

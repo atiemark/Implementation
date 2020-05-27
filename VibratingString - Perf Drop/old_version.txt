@@ -1,0 +1,71 @@
+#include <iostream>
+#include <chrono>
+#include <cmath>
+#include <atomic>
+
+using namespace std;
+
+chrono::time_point<chrono::high_resolution_clock> now;
+atomic<int> bufferWriteIndex = 0;
+float curSample = 0;
+float t = 0;
+float tIncr = 1.0f / 48000;
+
+float modeGainsTimesModeShapes[25] = { -0.144338, -1.49012e-08, -4.3016e-09, 7.45058e-09, -0, -0.25, 
+-1.49012e-08, 4.77374e-16, -7.45058e-09, 0, -0.288675, 0, 4.3016e-09, 3.55271e-15, -0, -0.25, 
+1.49012e-08, -1.4512e-15, 7.45058e-09, 0, -0.144338, 1.49012e-08, -4.30159e-09, -7.45058e-09, -0 };
+
+float modeDampingTermsString[5] = { -8.03847, -30, -60, -90, -111.962 };
+float damping[5] = { 1, 1, 1, 1, 1 };
+float modeFrequenciesArr[5] = { 71419.1, 266564, 533137, 799710, 994855 };
+float* modeDampingTermsExp = new float[5];
+
+
+int main(int argc, char** argv) {
+
+
+	/*
+	for (int m = 0; m < 5; m++) {
+		modeDampingTermsExp[m] = exp(modeDampingTermsString[m] * tIncr);
+	}*/
+
+	for (int m = 0; m < 5; m++) {
+		modeDampingTermsExp[m] = modeDampingTermsString[m] * tIncr;
+	}
+
+	
+	//std::thread t1(audioStringSimCos);
+	//t1.detach();
+	float subt = 0;
+	int subWriteIndex = 0;
+	auto now = std::chrono::high_resolution_clock::now();
+
+
+	while (true) {
+		
+		curSample = 0;
+
+		for (int i = 0; i < 5; i++) {
+
+			damping[i] = damping[i] * modeDampingTermsExp[i];
+			float cosT = 2 * damping[i] * cos(t * modeFrequenciesArr[i]);
+
+			for (int m = 0; m < 5; m++) {
+				curSample += modeGainsTimesModeShapes[i * 5 + m] * cosT;
+
+			}
+		}
+
+		//measure calculations per second
+		auto elapsed = std::chrono::high_resolution_clock::now() - now;
+		if ((elapsed / std::chrono::milliseconds(1)) > 1000) {
+			now = std::chrono::high_resolution_clock::now();
+			int idx = bufferWriteIndex;
+			cout << idx - subWriteIndex << endl;
+			subWriteIndex = idx;
+		}
+
+		t += tIncr;
+		bufferWriteIndex++;
+	}
+}

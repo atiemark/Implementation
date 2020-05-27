@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "convo", "convo.vcxproj", "{6D16EC27-CEC5-482F-905D-6592551720ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-conv|x64 = Debug-conv|x64
+		Debug-conv|x86 = Debug-conv|x86
+		Debug-vcvc|x64 = Debug-vcvc|x64
+		Debug-vcvc|x86 = Debug-vcvc|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-conv|x64.ActiveCfg = Debug-conv|x64
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-conv|x64.Build.0 = Debug-conv|x64
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-conv|x86.ActiveCfg = Debug-conv|Win32
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-conv|x86.Build.0 = Debug-conv|Win32
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-vcvc|x64.ActiveCfg = Debug|x64
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-vcvc|x64.Build.0 = Debug|x64
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-vcvc|x86.ActiveCfg = Debug|Win32
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Debug-vcvc|x86.Build.0 = Debug|Win32
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Release|x64.ActiveCfg = Release|x64
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Release|x64.Build.0 = Release|x64
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Release|x86.ActiveCfg = Release|Win32
+		{6D16EC27-CEC5-482F-905D-6592551720ED}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7F9400A-9B93-469E-8B55-863B07DA3D1A}
+	EndGlobalSection
+EndGlobal

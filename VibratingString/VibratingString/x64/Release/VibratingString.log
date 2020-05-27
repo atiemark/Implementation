@@ -1,0 +1,82 @@
+﻿  imgui_impl_opengl3.cpp
+  imgui_impl_sdl.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_widgets.cpp
+  main.cpp
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(99,20): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(174,79): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(212,67): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(225,81): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(238,14): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(247,14): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(273,46): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(273,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(274,50): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(274,31): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(275,50): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(275,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(279,54): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(279,31): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(280,50): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(280,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(281,50): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(281,31): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(322,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(323,13): warning C4244: 'initializing': conversion from 'Eigen::EigenBase<Derived>::Index' to 'int', possible loss of data
+          with
+          [
+              Derived=Eigen::Matrix<float,-1,1,0,-1,1>
+          ]
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(350,59): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(362,21): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(578,62): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(579,55): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(821,63): warning C4305: '+=': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+  shader.cpp
+MSVCRT.lib(initializers.obj) : warning LNK4098: defaultlib 'libcmt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\VibratingString\main.cpp(527): warning C4715: 'initGlew': not all control paths return a value
+  All 6433 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+LINK : warning LNK4286: symbol '__glewDeleteBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewLinkProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewDeleteShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGenBuffers' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewDetachShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewUniformMatrix4fv' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewBlendEquationSeparate' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGenVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewBlendEquation' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewShaderSource' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewDeleteProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewActiveTexture' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewAttachShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewBufferData' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGetUniformLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewBlendFuncSeparate' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewDeleteVertexArrays' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGetProgramiv' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderInfoLog' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewUniform1i' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewCreateProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewBindBuffer' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewCreateShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGetAttribLocation' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewCompileShader' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewGetShaderiv' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewDrawElementsBaseVertex' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewVertexAttribPointer' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewUseProgram' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewBindSampler' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewBindVertexArray' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+LINK : warning LNK4286: symbol '__glewEnableVertexAttribArray' defined in 'glew32s.lib(glew.obj)' is imported by 'imgui_impl_opengl3.obj'
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\x64\Release\vc120.pdb'; linking object as if no debug info
+  VibratingString.vcxproj -> D:\GDrive\IM\Semester_3_19\PRO3\Implementation\VibratingString\x64\Release\VibratingString.exe

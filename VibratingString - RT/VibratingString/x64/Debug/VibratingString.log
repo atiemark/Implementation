@@ -1,0 +1,18 @@
+﻿  main.cpp
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(64,39): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(65,12): warning C4244: "Initialisierung": Konvertierung von "Eigen::EigenBase<Derived>::Index" in "int", möglicher Datenverlust
+          with
+          [
+              Derived=Eigen::Matrix<float,-1,1,0,-1,1>
+          ]
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(140,79): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(337,36): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(338,37): warning C4244: "=": Konvertierung von "Eigen::EigenBase<Derived>::Index" in "int", möglicher Datenverlust
+          with
+          [
+              Derived=Eigen::Matrix<float,-1,1,0,-1,1>
+          ]
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(350,91): warning C4244: "Argument": Konvertierung von "double" in "const std::complex<float>::_Ty", möglicher Datenverlust
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(355,92): warning C4244: "Argument": Konvertierung von "double" in "const std::complex<float>::_Ty", möglicher Datenverlust
+D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\VibratingString\main.cpp(403,60): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+  VibratingString.vcxproj -> D:\Google Drive\IM\Semester_3_19\PRO3\Implementation\VibratingString - RT\x64\Debug\VibratingString.exe

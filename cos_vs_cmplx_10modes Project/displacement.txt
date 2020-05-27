@@ -1,0 +1,10 @@
+massPositionsString[0](1) = 0.0;
+	massPositionsString[1](1) = 0.0;
+	massPositionsString[2](1) = 0.1;
+	massPositionsString[3](1) = 0.3;
+	massPositionsString[4](1) = 0.5;
+	massPositionsString[5](1) = 0.3;
+	massPositionsString[6](1) = 0.2;
+	massPositionsString[7](1) = 0.0;
+	massPositionsString[8](1) = 0.0;
+	massPositionsString[9](1) = 0.0;

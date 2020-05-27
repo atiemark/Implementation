@@ -1,0 +1,2 @@
+SDL "abkoppeln"
+Grafik beitrag jedes einzelnen modes
